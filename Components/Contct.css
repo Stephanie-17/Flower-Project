@@ -1,0 +1,51 @@
+.links{
+    margin-top: 50px;
+    line-height: 0.7;
+}
+.link2,
+.link3{
+    margin-top: 50px;
+}
+.info input{
+    background-color: aliceblue;
+    padding: 10px;
+    border: none;
+    color: black;
+}
+.info button{
+    padding: 9px;
+    background-color: #cfb29b;
+    color: black;
+    border: none;
+}
+@media (min-width:400px) {
+    .links{
+        display: flex;
+        justify-content: space-between;
+        font-size: 13px;
+        
+       
+    }
+    .link2,
+    .link3{
+        margin: 0%;
+    }
+}
+@media (min-width:768px) {
+    .links{
+        text-align: left;
+        align-items: center;
+       
+    }
+    .contact{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .link2,
+    .link3,
+    .link1{
+        padding: 0 4vw;
+        margin-top: -80px;
+    }
+}

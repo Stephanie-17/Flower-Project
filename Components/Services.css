@@ -1,0 +1,50 @@
+.services-cont{
+    text-align: center;
+    margin-top: 90px;
+}
+
+.service-box{
+    border:2px solid  black ;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+    margin-bottom: 40px;
+    width: 290px;
+   margin: 0 auto;
+   box-shadow: 4px 5px 10px black;
+    
+}
+.service-box img{
+    width: 200px;
+    height: 250px;
+    margin-top: 10px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+   
+}
+.service-box p{
+    line-height: 1.4;
+    width: 290px;
+}
+.read{
+    font-weight: 700;
+}
+.service-text{
+    background-color: #E6CDB9;
+    margin-top: -20px;
+}
+.we-do{
+    color: rgb(238, 161, 66);
+    margin-bottom: -20px;
+}
+
+
+@media (min-width:1000px) {
+    .services{
+        display: flex;
+        justify-content: space-between;
+      
+    }
+    .sections div{
+       margin: 0 auto;
+    }
+}
