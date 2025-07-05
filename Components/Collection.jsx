@@ -1,4 +1,4 @@
-import React from 'react'
+
 import './Collection.css'
 import img1 from '../src/assets/download (7).jpeg'
 import img2 from '../src/assets/download (8).jpeg'
@@ -6,14 +6,14 @@ import img3 from '../src/assets/download (9).jpeg'
 import heart from '../src/assets/heart.svg'
 import comment from '../src/assets/comment.svg'
 
-import img4 from '../src/assets/image.jpeg'
+
 
 
 
 
 const Collection = () => {
   return (
-    <div className='collection-cont'>
+    <div className='collection-cont' id='collection'>
         <p>Dried Flowers Collection</p>
         <h1>See Whats Popular</h1>
 

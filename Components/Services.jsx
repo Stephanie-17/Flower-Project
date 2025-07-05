@@ -1,4 +1,4 @@
-import React from 'react'
+
 import bouquet from '../src/assets/download (4).jpeg'
 import occassion from '../src/assets/download (5).jpeg'
 import premade from '../src/assets/download (3).jpeg'
@@ -6,7 +6,7 @@ import './Services.css'
 
 const Services = () => {
   return (
-    <div className='services-cont'>
+    <div className='services-cont' id='services'>
         <p className='we-do'>This Is What We Do</p>
         <h1>Our Services</h1>
 

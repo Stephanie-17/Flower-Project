@@ -1,4 +1,5 @@
-import React from 'react'
+
+
 import './Navbar.css'
 import { useState } from 'react'
 import menuIcon from '../src/assets/menu.svg'
@@ -16,7 +17,7 @@ const Navbar = () => {
               <a href="#about"><p>About</p></a>
               <a href="#collection"><p>Collections</p></a>
               <a href="#contact"><p>Contact</p></a>
-             <button>Shop</button>
+             <button href='#services'>Shop</button>
             </div>
 
           

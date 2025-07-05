@@ -1,4 +1,4 @@
-import React from 'react'
+
 import './Hero.css'
 import fb from  '../src/assets/facebook.svg'
 import ig from '../src/assets/instagram.svg'
@@ -8,7 +8,7 @@ import  next from '../src/assets/next.svg'
 
 const Hero = () => {
   return (
-    <div className='hero-cont'>
+    <div className='hero-cont' id='home'>
       <div className="hero-text">
       
         <h1>Custom Dried Flower Bouquets</h1>

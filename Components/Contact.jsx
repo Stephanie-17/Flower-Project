@@ -1,9 +1,10 @@
-import React from 'react'
+
+
 import './Contct.css'
 
 const Contact = () => {
   return (
-    <div className='contact-cont'>
+    <div className='contact-cont' id='contact'>
         <hr />
         <div className="contact">
 
